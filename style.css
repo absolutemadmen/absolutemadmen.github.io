@@ -1,0 +1,92 @@
+body {
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4 {
+	font-family:"Another Danger - Demo";
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+@font-face{
+	font-family: "Another Danger - Demo";
+	src: url('anotherdanger.otf') format('opentype');
+}
+
+h5 {
+	font: 14px "Book Antiqua", Helvetica, sans-serif;
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #808080;
+}
+p {
+	font: 14px "Book Antiqua", Helvetica, sans-serif;
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+a img {
+	border: none;
+}
+
+a:link {
+	color:#C00000;
+	text-decoration: underline;
+}
+a:visited {
+	color: #B00000;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	background: #FFF;
+	margin: 0 auto;
+}
+
+.header {
+	background: #3F3F3F;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content ul, .content ol { 
+	padding: 15px 15px 15px 40px;
+}
+
+
+.footer {
+	padding: 5px 0 5px 0;
+	background: #3F3F3F;
+	box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
